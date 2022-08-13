@@ -1,0 +1,112 @@
+
+*{
+  padding:0;
+  margin: 0%;
+  font-family:'Dancing Script',cursive;
+  overflow-x:hidden;
+  transition: 0.3s ease;
+}
+body{
+  
+
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  border: solid 0.17rem black;
+
+  background-color: rgb(189, 235, 219);
+  border-radius: 20px;
+  position: fixed;
+  top: 0;
+  z-index: 10000;
+  padding: 0% 10% 0 5%;
+  margin-left: 1rem;
+  width: max-content;
+
+}
+.stick img{
+  height: 4vh;
+  align-self: center;
+  position: relative;
+  
+}
+ .stick h1{
+  font-size: 3rem;
+  
+ }
+ ul,
+ li,
+ a{
+  list-style:none;
+  display: flex;
+  margin-left: 1vh;
+
+  
+ }
+ a{
+  color: rgb(19, 19, 19);
+  text-decoration: none;
+  border: solid 0.14rem black;
+  align-self: center;
+  border-radius: 10px;
+  background-color: rgb(233, 195, 236);
+}
+section{
+  background-image: url(kadın.jpg);
+  position: absolute;
+  height: 100vh;
+  width: 50vh;
+  background-repeat: no-repeat;
+  background-size:contain;
+  filter: blur(0.01rem);
+  display: flex;
+  align-content: center;
+  border: 9px dodgerblue double;
+  background-size: cover;
+  box-shadow: inherit;
+}
+.main h1{
+  align-self: center;
+  margin-right: 60%;font-size: xx-large;
+  border: double aquamarine 8px;
+  padding: 20px 10px;
+  border-radius: 4px 55px;
+  color: rgb(143, 73, 143);
+  position:static;
+  box-sizing: border-box;
+  padding-right: 30px;
+  text-shadow: 5px 5px whitesmoke;
+
+}
+ footer{
+  height: 100vh;
+  display: flex;
+  align-content: center;
+ }
+ button{
+  align-self: flex-end;
+  position: relative;
+  z-index: 122;
+  font-size: xx-large;
+  left:30%;
+  bottom: 32%;
+  color: aquamarine;
+  border: 0;
+ }
+ button:hover{
+  font-size: xx-large;
+ }
+ i{
+  color: aquamarine;
+  background-color: rgb(143, 73, 143); 
+  width: 5rem;
+  font-size: xx-large;
+ }
+  
+ }
+ i:hover{
+  font-size: 2.5rem;
+  background-color: rgb(218, 145, 255);
+  width: 15rem;
+ }
